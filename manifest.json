@@ -5,6 +5,6 @@
 	"minAppVersion": "0.15.0",
 	"description": "This plugin allows you to create carousels in your notes.",
 	"author": "Hwan",
-	"authorUrl": "https://github.com/hwna00/obsidian-photo-carousel",
+	"authorUrl": "https://github.com/hwna00",
 	"isDesktopOnly": false
 }
