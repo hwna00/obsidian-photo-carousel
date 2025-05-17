@@ -154,7 +154,9 @@ export default class CarouselPlugin extends Plugin {
 
 	/** 지정 폴더의 이미지 경로 배열 가져오기 (캐시 활용) */
 	private async getImagePaths(folder: string): Promise<string[]> {
-		const folderPath = folder.slice(1);
+		const folderPath = folder.startsWith("/") ? folder.slice(1) : folder;
+
+		// console.log(folderPath);
 
 		const cached = this.folderCache.get(folderPath);
 		if (cached) return cached;
