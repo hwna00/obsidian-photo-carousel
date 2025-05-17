@@ -167,7 +167,9 @@ export default class CarouselPlugin extends Plugin {
 				/\.(png|jpe?g|gif|webp)$/i.test(f.path) // ← 파일 전체 경로로 검사
 			);
 		});
-		const paths = files.map((f) => f.path);
+		const paths = files.map((f) => f.path).sort();
+
+		console.log(paths);
 		this.folderCache.set(folderPath, paths);
 		return paths;
 	}
