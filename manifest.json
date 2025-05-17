@@ -1,7 +1,7 @@
 {
-	"id": "carousel-plugin",
+	"id": "photo-carousel",
 	"name": "Photo Carousel",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"minAppVersion": "0.15.0",
 	"description": "This plugin allows you to create carousels in your notes.",
 	"author": "Hwan",
