@@ -2,7 +2,4 @@
 
 This plugin allows you to create carousels in your notes.
 
-<video width="600" controls>
-  <source src="intro.mov" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Watch demo](https://img.youtube.com/vi/uzzOFrQYdho/0.jpg)](https://youtu.be/uzzOFrQYdho)
